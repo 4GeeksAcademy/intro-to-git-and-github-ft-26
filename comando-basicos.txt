@@ -1,0 +1,21 @@
+Comandos Basicos de GIT
+
+
+git init: inicializar un nuevo repositorio
+git clone: clonar un repositorio existente
+    ejem: 
+        - git clone https://github.com/4GeeksAcademy/intro-to-git-and-github-ft-26.git (main)
+        - git clone -b dev https://github.com/4GeeksAcademy/intro-to-git-and-github-ft-26.git (dev)
+
+git add: Agregar archivos al area de preparacion (staging) para un proximo commit
+
+    - git add <filename>
+    - git add . 
+    - git add -A 
+    - git add *
+
+git commit: guardar los cambios en el repositorio local
+
+    - git commit -m "Mensaje del Commit"
+
+git status: muestra el estado de los archivos en el repositorio
