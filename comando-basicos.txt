@@ -21,3 +21,20 @@ git commit: guardar los cambios en el repositorio local
 git status: muestra el estado de los archivos en el repositorio
 
 git merge: Funcionar ramas(branch) diferentes
+
+git branch: muestra el listado de rama(branch) existentes
+
+    - git branch <branch_name> ejem: git branch dev
+    - git brangh -D <branch_name> ejem: git branch -D dev
+
+git checkout: permite cambiar de rama o extraer cambios guardados en el repositorio local
+
+git pull: permite descargar los ultimos cambios y funcionarlo con los cambios locales
+
+git push: Subir los cambios del repositorio local al repositorio remoto
+
+git remote: permite ver el listado de repositorios remotos
+
+    - git remote add <remote_name> <url_repositorio_remoto> ejem: git remote add origin https://
+    - git remote rm <remote_name>: permite eliminar el repositorio remoto 
+    - git remote set-url <remote_name> <remote_url> ejem: git remote set-url origin https://
