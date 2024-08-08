@@ -38,3 +38,5 @@ git remote: permite ver el listado de repositorios remotos
     - git remote add <remote_name> <url_repositorio_remoto> ejem: git remote add origin https://
     - git remote rm <remote_name>: permite eliminar el repositorio remoto 
     - git remote set-url <remote_name> <remote_url> ejem: git remote set-url origin https://
+
+git log: permite ver los logs de todos los commits realizados
