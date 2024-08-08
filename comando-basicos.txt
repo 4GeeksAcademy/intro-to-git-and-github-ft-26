@@ -19,3 +19,5 @@ git commit: guardar los cambios en el repositorio local
     - git commit -m "Mensaje del Commit"
 
 git status: muestra el estado de los archivos en el repositorio
+
+git merge: Funcionar ramas(branch) diferentes
